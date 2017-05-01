@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+element.style {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  line-height: normal;
+  font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+  word-break: normal;
+  font-size: 12px;
+}
+.maintop{
+	background:url('../qinyi/index/bg01.jpg') repeat-x center center;
+    width:100%;  height:106px; float:left;
+	position:relative;
+	}
+.width1000{
+  margin:0px auto;
+  width:1100px;
+ 
+ }
+.userInfo{
+    height:66px;
+}
+ ul{ list-style:none; float:right;}
+ ul li{ float:left; color:#FFF; margin-left:5px;}
+ .color-yellow {
+  color: #ffd34e!important;
+  float:left;
+
+}
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+.header-re .clearfix li{height:66px;line-height:66px;background:url("../qinyi/index/ico01_r11_c5.png") no-repeat scroll right center;padding-right:17px;margin-left:17px;}
+.clearfix .user-head {
+	 display:inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent url(../qinyi/header-icon.png) -29px -25px no-repeat;
+    vertical-align: middle;
+}
+.break-line {
+  height: 15px;
+  width: 1px;
+  margin: 0px 0 0 10px;
+  background-color: #35478c;
+  overflow: hidden;
+}
+.recharge a {
+  height: 16px;
+  padding: 3px 8px;
+  line-height: 16px;
+  color: #1e3b6d;
+  background-color: #ffd34e;
+}
+ .msg-num, .user-info-list .recharge a {
+  height: 6px;
+  line-height: 16px;
+  color: #fff;
+  border-radius:5px;
+  vertical-align: middle;
+}
+.refresh {
+	display:inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent url(../qinyi/header-icon.png) 3px 3px no-repeat;
+  vertical-align:middle;
+}
+ .line {
+  height: 0px;
+  border-top: 1px solid #1e3b6d;
+  border-bottom: 1px solid #4569a7;
+}
+ .logo {
+  width: 299px;
+  height: 49px;
+  margin: 10px 0 0 0;
+   display:inline-block;
+  background: transparent url(../qinyi/logo.png) 0 0 no-repeat;
+}
+.fn-button li{ height:45px; display:inline-block; padding-top:15px; }
+.fn-button li a {
+  padding: 5px 8px 5px 30px;
+  font-size: 12px;
+  display:inline-block;
+  color:#FFF;
+  background: #1e3b6d url(../qinyi/header-icon.png) -57px -108px no-repeat;
+}
+.fn-button .qq a {
+  background-position: -57px -50px;
+}
+ .fn-button .client a {
+  background-position: -89px -79px;
+}
+.layout {
+  width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000;
+  height: 40px;
+  line-height: 39px;
+}
+.nav .game-type-list {
+  position: relative;
+  width: 144px;
+  padding: 0 0 0 56px;
+  font-size: 16px;
+  color: #fff;
+  box-shadow: 0 -3px 3px rgba(0,0,0,0.2);
+  background: #3d4475 url("../qinyi/index/ico01_r2_c3.png") no-repeat scroll 20px center;
+  float:left;
+  z-index: 2000;
+}
+.nav .game-type-list a.nav-a{
+    background: url("../qinyi/index/ico01_r5_c3.png") no-repeat scroll right center;
+    color:#d6cb9c;
+    font-size:14px;
+    padding-right:35px;
+}
+.nav .game-type-list .typle-list {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 902px;
+  z-index: 2000;
+  background: #3d4475;
+}
+.lottery_div01{ height:140px; border:1px solid #868aaf; padding-top:30px;}
+.lotter_dl01{ overflow:hidden; width:280px; padding:0 10px; float:left; }
+.lotter_dl01 dt{ width:75px; height:110px; text-align:center; font-size:18px; color:#fff; float:left;}
+.lotter_dl01 dt p{line-height:10px;}
+.lotter_dl01 dd{ width:200px; height:110px; float:right; }
+.lotter_dl01 dd p{ float:left; line-height:32px; font-size:14px; background:url(../qinyi/ico01_r19_c6.png) no-repeat left center; padding-left:10px; margin-left:10px;}
+.lotter_dl01 dd p a{ background:url(../qinyi/ico07.png) no-repeat right center; padding-right:10px; color:#d6cb9c; }
+.lotter_dl01 dd p:hover{ background:url(../qinyi/ico08.png) no-repeat left center;}
+.lotter_dl02{ width:320px;}
+.lotter_dl02 dd{ width:240px;}
+.lotter_dl03{ width:260px; padding:0px;}
+.lotter_dl03 dd{ width:180px;}
+.lottery_div02{ height:79px;  background:#171735 url(../qinyi/ico01_r22_c1.png) no-repeat 20px center; padding-left:70px;}
+.lotter_dl04{ padding-top:22px; float:left; margin-right:20px;}
+.lotter_dl04 dt{ width:38px; height:38px; float:left;}
+.lotter_dl04 dd{ float:left; margin-left:10px; font-size:14px;  }
+.lotter_dl04 dd .p02{ font-size:12px; color:#7981AD;}
+
+
+.nav .game-type-list:hover  .typle-list{ display:block;}
+.game-type-list .typle-list ul.ssc, .game-type-list .typle-list ul.n115 {
+  width: 179px;
+  border-right: 1px solid #ffd34e;
+}
+
+
+.nav .game-type-list .typle-list ul {
+  float: left;
+  width: 179px;
+  height: 322px;
+}
+.nav .game-type-list .typle-list li {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+ 
+}
+
+.nav .game-type-list .typle-list .title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #ffd34e;
+  border-bottom: 2px solid #ffd34e;
+  width:100%;
+  margin-left:-0px;
+}
+/*.game-type-list .typle-list a {*/
+  /*display: block;*/
+  /*width: 174px;*/
+  /*height: 35px;*/
+  /*color:#FFF;*/
+  /*text-align:center;*/
+  /*float:left;*/
+  /*margin:0px;*/
+/*}*/
+.game-type-list .typle-list a:hover{ text-decoration:underline;color:#fff;}
+.game-type-list .typle-list .title a {
+  color: #ffd34e;
+}
+
+.nav-model li {
+  float: left;
+  margin: 0 0 0 45px;
+  font-size: 14px;
+}
+.nav-model li a{ color:#FFF;}
+.nav-model li:hover a, li.current a {
+  color: #ffd34e;
+}
+.current a{
+	background: #303842;color:#90ff00;
+	
+}

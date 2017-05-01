@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+input, select, textarea, button, table, th, td {
+  font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+}
+input, textarea, select, button {
+  font-size: 100%;
+  font-family: inherit;
+}
+body{
+	background-image: url(../tpdz/yejing.jpg);
+	background-repeat: repeat;
+}
+div {
+  display: block;
+}
+.f-left {
+  float: left;
+}
+.header-area {
+  width: 680px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.login-layout {
+width: 680px;
+margin: 0 auto;
+text-align: center;
+}
+
+.c_speedtest {
+  float: right;
+  margin-top: 10px;
+  width: 79px;
+  height: 30px;
+  background: url(../qinyi/speed.jpg) no-repeat;
+  border-radius: 3px;
+}
+.c_onlineLive {
+  float: right;
+  margin-top: 10px;
+  width: 79px;
+  height: 30px;
+  background: url(../qinyi/online-custom.jpg) no-repeat;
+  border-radius: 3px;
+}
+.mr10 {
+  margin-right: 10px!important;
+}
+.login-layout .logo {
+  width: 300px;
+  height: 109px;
+  margin: 130px auto 0 auto;
+  background: url(../qinyi/login-logo.png) no-repeat center center;
+}
+.login-area {
+  width: 411px;
+  height: 90px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  background: url(../qinyi/login-area-bg.png) no-repeat 63px 0;
+}
+.login-area .info {
+  width: 338px;
+}
+.login-area .info span {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  margin-top:10px;
+   float:left;
+}
+.login-area .account, .login-area .password {
+  width: 253px;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: none;
+  outline:none;
+   float:left;
+    font-size:13px;
+}
+.submit-button {
+  width: 72px;
+  height: 90px;
+  color: #11235c;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-indent: -9999em;
+  vertical-align: middle;
+  background-position: -1px 0;
+  
+}
+
+.forget {
+  display: block;
+  margin: 15px 0 0 290px;
+  text-decoration:none;
+  color: #fff;
+   font-size:12px;
+    font-weight:bolder;
+}
+.clearfix:after {
+  clear: both;
+}
+.ued-desc {
+margin: 50px 0 0 0;
+color: #fff;
+font-size: 14px;
+}
+.suggest-browser .chrome {
+background-position: 3px 0;
+}
+.suggest-browser .ie {
+background-position: -56px 0;
+}
+.suggest-browser .firefox {
+background-position: -118px 0;
+}
+.suggest-browser li {
+display: inline-block;
+width: 35px;
+height: 35px;
+margin: 0 0 0 15px;
+background: url(../qinyi/browser.png) no-repeat;
+}
+.ui-input {
+	display: block;
+}

@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+body {
+  background: url(../qinyi/ucenter-bg.jpg) repeat-y center 0;
+  background-color: #e6e6e6!important;
+}
+body {
+  line-height: normal;
+  font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+  word-break: normal;
+  font-size: 12px;
+}
+div {
+  display: block;
+}
+.layout {
+  width: 991px;
+  height: auto;
+  margin: 0 auto;
+}
+.bg-f6 {
+  background: #f6f6f6!important;
+}
+.pb100 {
+  padding-bottom: 210px!important;
+}
+.list-group {
+  font-size: 14px;
+}
+.text-center {
+  text-align: center;
+}
+.mt30 {
+  margin-top: 30px!important;
+}
+.mt10 {
+  margin-top: 10px!important;
+}
+.w150 {
+  width: 150px!important;
+}
+.w-90 {
+  width: 90%!important;
+}
+.fl{
+float:left;	
+	}
+	.dw{ padding-top:50px;
+	
+	}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+.ui-btn-default:hover, .ui-btn-important,.ui-btn-important:hover{
+  cursor: pointer;
+  background-color: #1e3b6d;
+  color:#ffd34e;
+}
+strong, b {
+  font-weight: bold;
+}
+.ui-btn {
+  display: inline-block;
+  height: 30px;
+  border: none;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+.ui-line {
+  height: 10px;
+  margin: 0 auto 10px auto;
+  border-bottom: 1px dashed #ddd3cd;
+}
+.ui-form-area {
+  width: 700px;
+  margin: 0 auto;
+}
+.ui-btn-default {
+  background-color: #4e7ac7;
+}
+.content-warp a{background-color: #4e7ac7;}
+.ui-form-area {
+  width: 700px;
+  margin: 0 auto;
+}
+.ui-desc {
+  line-height: 25px;
+  color:#333;
+}
+.pt10 {
+  padding-top: 10px!important;
+}
+.text-right {
+  text-align: right;
+}
+.ml50 {
+  margin-left: 50px!important;
+}
+.inline {
+  display: inline-block;
+}
+.v-at {
+  vertical-align: top;
+}
+.ml20 {
+  margin-left: 20px!important;
+}

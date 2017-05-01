@@ -1,0 +1,28 @@
+<?php
+//=======================卡类支付和网银支付公用配置==================
+//顺付商户ID
+$shunfoo_merchant_id		= '1658';
+
+//顺付通信密钥
+$shunfoo_merchant_key		= '2295371b45e14cad9f98533e3b613012';	//hc6NOTDETVQe9Lgr
+
+
+//==========================卡类支付配置=============================
+//支付的区域 0代表全国通用	
+$shunfoo_restrict			= '0';
+
+
+//接收顺付下行数据的地址, 该地址必须是可以再互联网上访问的网址
+$shunfoo_callback_url		= "http://www.xtxylpt.com/index.php/Pay/hrefback/";
+$shunfoo_callback_url_muti  = "http://www.xtxylpt.com/index.php/Pay/callback/";
+
+//======================网银支付配置=================================
+//接收顺付网银支付接口的地址
+$shunfoo_bank_callback_url	= "http://www.xtxylpt.com/index.php/Pay/callback/";
+
+
+//网银支付跳转回的页面地址
+$shunfoo_bank_hrefbackurl	= 'http://www.xtxylpt.com/index.php/Pay/hrefback/';
+
+
+?>

@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+a:link,a:visited{color:#d6cb9c;text-decoration:none;}
+
+input, select, textarea, button, table, th, td {
+  border:0;
+  font-family: 'Microsoft Yahei',Tahoma,Arial,Helvetica,Simsun,STHeiti;
+}
+input, textarea, select, button {
+  font-size: 100%;
+  font-family: inherit;
+}
+body{
+  font-size:12px;
+}
+div {
+  display: block;
+}
+
+#login_header{ height:68px; background:#37354d;}
+.login_header_in{ width:1100px; margin:0 auto; height:60px; padding-top:8px;}
+.login_header_in .logo{ float:left;}
+.header_right{ float:right;}
+.header_right a{ display:block; height:50px; margin-right:30px; float:left; line-height:50px; background: url(../qinyi/ico01.jpg) no-repeat left center; padding-left:30px; }
+.header_right .a01{ background-image:url(../qinyi/ico01.png);}
+
+
+.f-left {
+  float: left;
+}
+.header-area {
+  width: 680px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.login-bg{
+  width:100%;
+  height:1000px;
+  background:url('../qinyi/login_bg.jpg') no-repeat center center;
+  background-size:100% 100%;
+}
+.login_in{
+  width:1100px; overflow:hidden; margin:0 auto;
+}
+
+.login_con {
+  width:360px; height:232px ; background:url(../qinyi/login_bg01.png) center top; float:right; margin-right:75px; margin-top:85px; padding-top:100px;
+
+}
+
+.login_con div{ height:50px; width:360px; line-height:40px;}
+.login_con .number{ width:190px; height:42px; background:url(../qinyi/login_bg02.png) no-repeat; padding-left:62px; margin:0 auto; }
+.login_con .password{ width:190px; height:42px; background:url(../qinyi/login_bg03.png) no-repeat; padding-left:62px; margin:0 auto; margin-top:20px; }
+.login_con .number_in{ float:left; line-height:40px; background:none;  width:170px; height:40px;font-size:14px;}
+.login_con .password_in{ float:left; line-height:40px; background:none; width:170px; height:40px;font-size:14px;}
+.login_con a{ display:block; text-align:right; padding-right:50px;  line-height:30px;}
+.login_con a:link,.login_con a:visited{ color:#a59966;}
+.login_con .button{ margin-top:20px;}
+.login_con .btn{ display:block; width:191px; height:53px; margin:0 auto; background:url(../qinyi/login_btn01.png) no-repeat; cursor:pointer;  }
+.login_con .btn:hover{ background-image:url(../qinyi/login_btn02.png);}
+
+.c_speedtest {
+  float: right;
+  margin-top: 10px;
+  width: 79px;
+  height: 30px;
+  background: url(../qinyi/speed.jpg) no-repeat;
+  border-radius: 3px;
+}
+.c_onlineLive {
+  float: right;
+  margin-top: 10px;
+  width: 79px;
+  height: 30px;
+  background: url(../qinyi/online-custom.jpg) no-repeat;
+  border-radius: 3px;
+}
+.mr10 {
+  margin-right: 10px!important;
+}
+.login-layout .logo {
+  width: 300px;
+  height: 109px;
+  margin: 0 auto;
+  background: url(../qinyi/login-logo.png) no-repeat center center;
+}
+.login-area {
+  width: 411px;
+  height: 90px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  background: url(../qinyi/login-area-bg.png) no-repeat 63px 0;
+}
+.login-area .info {
+  width: 338px;
+}
+.login-area .info span {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  margin-top:10px;
+   float:left;
+}
+.login-area .account, .login-area .password {
+  width: 253px;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: none;
+  outline:none;
+   float:left;
+    font-size:13px;
+}
+.submit-button {
+  width: 72px;
+  height: 90px;
+  color: #11235c;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-indent: -9999em;
+  vertical-align: middle;
+  background-position: -1px 0;
+  
+}
+.forget {
+  display: block;
+  margin: 15px 0 0 290px;
+  text-decoration:none;
+  color: #fff;
+   font-size:12px;
+    font-weight:bolder;
+}
+.clearfix:after {
+  clear: both;
+}
+.ued-desc {
+margin: 50px 0 0 0;
+color: #fff;
+font-size: 14px;
+}
+.suggest-browser .chrome {
+background-position: 3px 0;
+}
+.suggest-browser .ie {
+background-position: -56px 0;
+}
+.suggest-browser .firefox {
+background-position: -118px 0;
+}
+.suggest-browser li {
+display: inline-block;
+width: 35px;
+height: 35px;
+margin: 0 0 0 15px;
+background: url(../qinyi/browser.png) no-repeat;
+}

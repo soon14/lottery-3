@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml info="免费接口随机延迟3-5分钟如需实时接口请访问opencai.net或加QQ:9564384(请注明彩票API)" code="bjpk10" rows="5">
+   <row opentime="2015-05-06 21:52:30" opencode="02,06,10,07,09,01,03,04,08,05" expect="488094"/>
+   <row opentime="2015-05-06 21:47:30" opencode="03,01,09,05,02,04,10,07,06,08" expect="488093"/>
+   <row opentime="2015-05-06 21:42:30" opencode="07,01,04,06,09,02,05,08,10,03" expect="488092"/>
+   <row opentime="2015-05-06 21:37:30" opencode="10,02,08,04,07,01,05,03,09,06" expect="488091"/>
+   <row opentime="2015-05-06 21:32:30" opencode="04,10,07,02,01,03,09,08,05,06" expect="488090"/>
+</xml>

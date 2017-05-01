@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+body{ overflow-x:hidden;font-size:12px;}
+ul,ol{ list-style:none;}
+element.style {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.logoshouye img{ display:block; width:1920px; height:360px;}
+.notice-area {
+  height: 35px;
+  color: #fff;
+  line-height: 35px;
+  background: #217eec;
+  overflow: hidden;
+}
+.layout {
+  width: 991px;
+  height: auto;
+  margin: 0 auto;
+}
+.notice-area .cycle-pager {
+  font-size: 30px;
+  color: #013da9;
+    float: right;
+}
+.notice-area .cycle-pager span {
+  padding: 0 3px;
+  cursor: pointer;
+}
+.notice-area .cycle-pager-active {
+  color: #fff;
+}
+.pb20 {
+  padding-bottom: 20px!important;
+}
+.pb20 ul{
+  width:990px;
+  margin:0 auto;
+}
+.mt20 {
+  margin-top: 20px!important;
+}
+.lottery-list-area {
+  height: 160px;
+}
+.lottery-list-area li {
+  float: left;
+}
+.lottery-list-area .first a {
+  border: none;
+  border-right: 1px solid #ccc;
+}
+.lottery-list-area .full a {
+  display: block;
+  height: 157px;
+  border-left: none;
+}
+.lottery-list-area a {
+  display: block;
+  height: 78px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.lottery-list-area .half .second {
+  border-top: none;
+}
+
+.warp-support, .bottom {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.warp-support {
+  height: 80px;
+  padding-top: 20px;
+  border-top: 1px solid #e6e6e6;
+}
+.support-group {
+  width: 945px;
+  height: 41px;
+  margin: 10px auto;
+  background: url(../qinyi/support-group.png) no-repeat;
+}
+.warp-support, .bottom {
+  margin: 0 auto;
+  background-color: #fff;
+}
+.bottom {
+  height: 40px;
+  padding-top: 60px;
+  text-align: center;
+  color: #fff;
+  background: url(../qinyi/bottom-bg.png) repeat-x;
+  background-color:#FFF;
+}
+.bottom .bottom-nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.footer01{ height:170px; width:745px; margin:0 auto; padding-top:30px;}
+.footer01_dl01{ width:200px; color:#262626; float:left; }
+.footer01_dl01 .p01{ color:#262626; font-size:14px;}
+.footer01_dl01 .p02{color:#9F9F9F;}
+.footer01_dl01 dt{ padding-left:20px; margin-bottom:10px;}
+.footer01_dl01 dd a{ display:block; height:30px; background:url(../qinyi/index/ico01_r44_c3.png) no-repeat left center; line-height:30px; color:#575757; padding-left:25px; }
+.footer01 .wechat dd a{ background:none;}
+.footer01 .mobile dd a{ background:none;}
+
+.footer02{ background:#32365E;}
+.footer02_in{ width:1100px; margin:0 auto; overflow:hidden;}
+.footer02_in_l{ float:left; }
+.footer02_in h4{ font-size:14px; color:#ECECEC; font-weight:100; margin-top:20px;}
+.footer02_in h4 span{ color:#9F9F9F; font-size:12px; padding-left:10px;}
+.footer02_ul01{ float:left; width:520px; border-right:1px solid #3d4375; padding-top:30px;}
+.footer02_ul01 li{ float:left; margin-right:12px; margin-bottom:10px;}
+.footer02_in_r{ float: right; }
+.footer02_in_r .footer02_ul01{ border:0px;}
+.footer02 .p01{ background:#31365d; color:#9193AF; line-height:50px; height:50px;}
+.footer02 p{ background:#171735; height:30px; text-align:center; color:#515575; line-height:30px;}

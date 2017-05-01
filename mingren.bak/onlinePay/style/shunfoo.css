@@ -1,0 +1,50 @@
+/* CSS Document */
+*{
+font-size:12px; margin:0; padding:0;
+}
+.pay_base_info{
+border:1px solid #8DB2E3; width:1000px;; text-align:left;margin-top:20px;
+}
+
+table.form{
+width:100%;
+}
+table.form .title td{
+padding:15px; font-size:12px; text-align:left; border-bottom:1px solid #8DB2E3;
+}
+table.form .foot td{
+padding:15px; text-align:right;border-top:1px solid #8DB2E3;
+}
+
+table.form td{
+	padding:4px;
+}
+table.form td.label{
+	width:40%; text-align:right; padding-right:10px; font-size:13px;
+}
+
+table.form .cardtype{
+display:block;
+}
+
+span.cardType, span.bankType{
+width:17%;
+padding:0 0 0 3%;
+margin:10px 0;
+border:0;
+text-align:center;
+height:44px;
+line-height:44px;
+ float:left; display:block;
+}
+span.cardType label, span.bankType label{
+width:100%; 
+}
+div.bankTypeDiv{
+width:100%;
+height:400px;
+overflow:auto
+}
+span.bankType img, span.cardType img{width:144px;height:44px;}
+span.bankType input, span.cardType input{display:inline;float:left;margin-top:15px;}
+#submit{width:150px;line-height:40px;border:0px;font-size:18px;cursor:pointer;background-color:#337ab7;color:#fff;}
